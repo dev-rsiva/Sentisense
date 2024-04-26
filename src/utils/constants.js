@@ -16,7 +16,7 @@ export const YOUTUBE_VIDEOS_API =
   YOUTUBE_API_KEY;
 
 export const YOUTUBE_SEARCH_VIDEO_API =
-  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=";
+  "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=";
 
 export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
 
