@@ -53907,7 +53907,7 @@ const VIDEO_IDS = [
 ];
 const YOUTUBE_VIDEOS_API = "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=10&regionCode=US&key=" + YOUTUBE_API_KEY;
 const YOUTUBE_SEARCH_VIDEO_API = "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=";
-const OPENAI_KEY = "YOUR_API_KEY";
+const OPENAI_KEY = undefined;
 "YOUR_API_KEY";
 const BG_IMG = "https://vidiq.com/_next/image/?url=%2Fimg%2Fhero_bg_transparent_alt.png&w=750&q=75";
 const SHADOW_IMG = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjQ0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIvPg==";
