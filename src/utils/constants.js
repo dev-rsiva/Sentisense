@@ -18,7 +18,9 @@ export const YOUTUBE_VIDEOS_API =
 export const YOUTUBE_SEARCH_VIDEO_API =
   "https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=";
 
-export const OPENAI_KEY = "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";
+export const OPENAI_KEY = "YOUR_API_KEY";
+
+("YOUR_API_KEY");
 
 export const BG_IMG =
   "https://vidiq.com/_next/image/?url=%2Fimg%2Fhero_bg_transparent_alt.png&w=750&q=75";
