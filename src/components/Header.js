@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import LogoContainer from "./LogoContainer";
+import LogoContainer from "./titleGenerator/LogoContainer";
 const Header = () => {
   return (
     <div className="bg-[#0D111B] w-full py-2 text-white font-Rubik shadow-lg">

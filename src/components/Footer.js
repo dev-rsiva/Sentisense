@@ -1,5 +1,5 @@
 import React from "react";
-import LogoContainer from "./LogoContainer";
+import LogoContainer from "./titleGenerator/LogoContainer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -62,7 +62,7 @@ const Footer = () => {
         </div>
       </div>
       <p className="px-5 sm:px-20 py-3 text-sm text-white text-left">
-        © 2024 vidIQ. All Rights Reserved.
+        © 2024 sentiSense. All Rights Reserved.
       </p>
     </div>
   );

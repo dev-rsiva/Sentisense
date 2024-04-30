@@ -23,33 +23,23 @@ import userPreferencesPrompt from "../utils/userPreferencesPrompt";
 
 const useTitleGeneratorData = () => {
   console.log("useTitleGenerator Started");
+  const topicRef = useRef(null);
+  const topicRefValue = topicRef?.current?.value;
+  const [competitorTitles, setCompetitorTitles] = useState(null);
   const [videos, setVideos] = useState(null);
+  const [generatedTitles, setGeneratedTitles] = useState(null);
+  const [competitorAnalysis, setCompetitorAnalysis] = useState(false);
+  const [seoTitlesAreLoading, setSeoTitlesAreLoading] = useState(false);
 
+  // const [competitorTitles, setCompetitorTitles] = useState(null);
   const [lengthOfTitle, setLengthOfTitle] = useState(null);
   const [contentType, setContentType] = useState([]);
   const [tone, setTone] = useState([]);
-
-  const [showTitles, setShowTitles] = useState(false);
-  const [showRefinedTitles, setShowRefinedTitles] = useState(false);
-
-  const [competitorAnalysis, setCompetitorAnalysis] = useState(false);
+  const [refinedTitles, setRefinedTitles] = useState(null);
+  const [refinedTitlesAreLoading, setRefinedTitlesAreLoading] = useState(false);
   const [userPreferences, setUserPreferences] = useState(false);
   const [doRefine, setDoRefine] = useState(false);
-  const [showCompetitorAnalysisBtn, setShowCompetitorAnalysisBtn] =
-    useState(true);
-  const [showUserPreferencesBtn, setShowUserPreferencesBtn] = useState(true);
-  const [showClearAllBtn, setShowClearAllBtn] = useState(false);
-  const [showRefinedTitlesBtn, setShowRefinedTitlesBtn] = useState(false);
-  const [competitorTitles, setCompetitorTitles] = useState(null);
-  const [generatedTitles, setGeneratedTitles] = useState(null);
-  const [refinedTitles, setRefinedTitles] = useState(null);
-
-  const [seoTitlesAreLoading, setSeoTitlesAreLoading] = useState(false);
-  const [refinedTitlesAreLoading, setRefinedTitlesAreLoading] = useState(false);
-  const [titleIndex, setTitleIndex] = useState(null);
-
-  const topicRef = useRef(null);
-  const topicRefValue = topicRef?.current?.value;
+  // const [generatedTitles, setGeneratedTitles] = useState(null);
 
   useEffect(() => {
     console.log("useEffect");
@@ -198,140 +188,26 @@ const useTitleGeneratorData = () => {
     }
   }, [doRefine]);
 
-  const handleCompetitorAnalysisClick = () => {
-    setVideos(null);
-    setGeneratedTitles(null);
-    setSeoTitlesAreLoading(true);
-    setCompetitorAnalysis(true);
-    setUserPreferences(false);
-    setShowCompetitorAnalysisBtn(false);
-    setShowUserPreferencesBtn(false);
-    setShowClearAllBtn(true);
-    setShowTitles(true);
-  };
-
-  const handleUserPreferencesClick = () => {
-    setGeneratedTitles(null);
-    setCompetitorAnalysis(true);
-    setUserPreferences(true);
-    setShowRefinedTitlesBtn(true);
-    setShowUserPreferencesBtn(false);
-    setShowCompetitorAnalysisBtn(false);
-    setSeoTitlesAreLoading(true);
-    setShowTitles(true);
-  };
-
-  const handleClearAllClick = () => {
-    setVideos(null);
-    setCompetitorTitles(null);
-    setGeneratedTitles(null);
-    topicRef.current.value = null;
-    setLengthOfTitle(null);
-    setContentType([]);
-    setTone([]);
-    setRefinedTitles(null);
-    setShowCompetitorAnalysisBtn(true);
-    setShowUserPreferencesBtn(true);
-    setCompetitorAnalysis(false);
-    setUserPreferences(false);
-    setDoRefine(false);
-    setShowClearAllBtn(false);
-    setShowTitles(false);
-    setShowRefinedTitles(false);
-  };
-
-  const handleLengthClick = (e) => {
-    setLengthOfTitle(e.target.value);
-  };
-
-  const handleContentTypeClick = (e) => {
-    setContentType((prev) => {
-      let updatedContentType = [...prev];
-
-      if (e.target.checked) {
-        updatedContentType = [...updatedContentType, e.target.value];
-      } else {
-        updatedContentType.splice(
-          updatedContentType.indexOf(e.target.value),
-          1
-        );
-      }
-
-      return updatedContentType;
-    });
-  };
-
-  const handleToneClick = (e) => {
-    setTone((prev) => {
-      let updatedTone = [...prev];
-
-      if (e.target.checked) {
-        updatedTone = [...updatedTone, e.target.value];
-      } else {
-        updatedTone.splice(updatedTone.indexOf(e.target.value), 1);
-      }
-
-      return updatedTone;
-    });
-  };
-
-  const handleCopyClick = (title, index) => {
-    navigator.clipboard.writeText(title);
-    setTitleIndex(index);
-    setTimeout(() => setTitleIndex(null), 3000);
-  };
-
-  console.log(refinedTitlesAreLoading, seoTitlesAreLoading);
-
-
   return [
     topicRef,
-    topicRefValue,
+    setCompetitorTitles,
     videos,
     setVideos,
-    lengthOfTitle,
-    setLengthOfTitle,
-    contentType,
-    setContentType,
-    tone,
-    setTone,
-    showTitles,
-    setShowTitles,
-    showRefinedTitles,
-    setShowRefinedTitles,
-    competitorAnalysis,
-    setCompetitorAnalysis,
-    userPreferences,
-    setUserPreferences,
-    doRefine,
-    setDoRefine,
-    showCompetitorAnalysisBtn,
-    setShowCompetitorAnalysisBtn,
-    showUserPreferencesBtn,
-    setShowUserPreferencesBtn,
-    showClearAllBtn,
-    setShowClearAllBtn,
-    showRefinedTitlesBtn,
-    setShowRefinedTitlesBtn,
-    competitorTitles,
-    setCompetitorTitles,
     generatedTitles,
     setGeneratedTitles,
-    refinedTitles,
-    setRefinedTitles,
+    setCompetitorAnalysis,
     seoTitlesAreLoading,
     setSeoTitlesAreLoading,
+    setLengthOfTitle,
+    setContentType,
+    setTone,
+    refinedTitles,
+    setRefinedTitles,
     refinedTitlesAreLoading,
     setRefinedTitlesAreLoading,
-    titleIndex,
-    setTitleIndex,
-    handleCompetitorAnalysisClick,
-    handleUserPreferencesClick,
-    handleClearAllClick,
-    handleLengthClick,
-    handleContentTypeClick,
-    handleToneClick,
-    handleCopyClick,
+    userPreferences,
+    setUserPreferences,
+    setDoRefine,
   ];
 };
 
