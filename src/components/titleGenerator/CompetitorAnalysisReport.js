@@ -24,37 +24,58 @@ const CompetitorAnalysisReport = ({ data }) => {
             >
               <img
                 src={video.snippet.thumbnails.medium.url}
-                className="rounded-l-lg"
+                className="rounded-tl-lg rounded-tr-lg sm:rounded-l-lg"
               />
 
-              <div className="flex flex-col px-4 py-4 sm:ml-10 justify-between items-start">
-                <div className="flex justify-start items-start">
-                  <h1 className="min-w-[110px] sm:min-w-[150px]  text-left text-nowrap text-blue-500">
+              <div className="flex flex-col px-4 py-4 sm:ml-10 justify-center sm:justify-between items-center sm:items-start">
+                <div className="flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start">
+                  <h1 className="sm:min-w-[150px]  text-left text-nowrap text-blue-500">
                     Rank:
                   </h1>
-                  <span className="ml-2 text-white text-left">{index + 1}</span>
+                  <FontAwesomeIcon
+                    icon={faArrowDown}
+                    className="text-lg py-2 sm:hidden"
+                  />
+                  <span className="sm:ml-2 text-white text-left">
+                    {index + 1}
+                  </span>
                 </div>
-                <div className="flex justify-start items-start">
-                  <h1 className="min-w-[110px] sm:min-w-[150px] text-left text-nowrap text-blue-500">
+                <hr className="w-[300px] my-4 sm:hidden" />
+                <div className="flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start">
+                  <h1 className="sm:min-w-[150px] text-left text-nowrap text-blue-500">
                     Channel Title:
                   </h1>
-                  <span className="ml-2 text-white text-left">
+                  <FontAwesomeIcon
+                    icon={faArrowDown}
+                    className="text-lg py-2 sm:hidden"
+                  />
+                  <span className="sm:ml-2 text-white text-left">
                     {video.snippet.channelTitle}
                   </span>
                 </div>
-                <div className="flex justify-start items-start">
-                  <h1 className="min-w-[110px] sm:min-w-[150px]  text-left text-nowrap text-blue-500">
+                <hr className="w-[300px] my-4 sm:hidden" />
+                <div className="flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start">
+                  <h1 className="sm:min-w-[150px]  text-left text-nowrap text-blue-500">
                     Video Title:
                   </h1>
-                  <span className="ml-2 text-white text-left text-wrap">
+                  <FontAwesomeIcon
+                    icon={faArrowDown}
+                    className="text-lg py-2 sm:hidden"
+                  />
+                  <span className="sm:ml-2 text-white text-left text-wrap">
                     {video.snippet.title}
                   </span>
                 </div>
-                <div className="flex justify-start items-start">
-                  <h1 className="min-w-[110px] sm:min-w-[150px]  text-left text-nowrap text-blue-500">
+                <hr className="w-[300px] my-4 sm:hidden" />
+                <div className="flex flex-col sm:flex-row justify-center sm:justify-start items-center sm:items-start">
+                  <h1 className="sm:min-w-[150px]  text-left text-nowrap text-blue-500">
                     Publish Time:
                   </h1>
-                  <span className="ml-2 text-white text-left">
+                  <FontAwesomeIcon
+                    icon={faArrowDown}
+                    className="text-lg py-2 sm:hidden"
+                  />
+                  <span className="sm:ml-2 text-white text-left">
                     {video.snippet.publishedAt}
                   </span>
                 </div>

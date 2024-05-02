@@ -1,14 +1,14 @@
 import React from "react";
 import { TAGS_BEST_PRACTICES } from "../../utils/constants";
 import {
-  TITLE_FIRST_LINE,
-  TITLE_HEADLINE,
-  TITLE_SUB_HEADLINE,
-  TITLE_SUBHEADINGS,
-  TITLE_BEST_PRACTICES_HEADING,
-  TITLE_BEST_PRACTICES,
-  TITLE_SUB_HEADINGS2,
-  TITLE_FAQ,
+  DESCRIPTION_FIRST_LINE,
+  DESCRIPTION_HEADLINE,
+  DESCRIPTION_SUB_HEADLINE,
+  DESCRIPTION_SUBHEADINGS,
+  DESCRIPTION_BEST_PRACTICES_HEADING,
+  DESCRIPTION_BEST_PRACTICES,
+  DESCRIPTION_SUB_HEADINGS2,
+  DESCRIPTION_FAQ,
   OPENAI_KEY,
   YOUTUBE_API_KEY,
   YOUTUBE_SEARCH_VIDEO_API,
@@ -17,20 +17,20 @@ import {
 const BestPracticesContent = () => {
   return (
     <div>
-      <div className="text-center sm:mx-[155px] mt-12 sm:mt-16">
+      <div className="text-center sm:mx-[155px] mt-12 sm:mt-16 px-2">
         <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
-          {TITLE_SUBHEADINGS.question}
+          {DESCRIPTION_SUBHEADINGS.question}
         </h2>
         <p className="py-3 text-[18px] text-white">
-          {TITLE_SUBHEADINGS.answer}
+          {DESCRIPTION_SUBHEADINGS.answer}
         </p>
       </div>
       <div className="text-center sm:mx-[155px] mt-12 sm:mt-16">
         <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
-          {TITLE_BEST_PRACTICES_HEADING}
+          {DESCRIPTION_BEST_PRACTICES_HEADING}
         </h2>
         <div className="py-3 text-white flex flex-wrap justify-center items-center">
-          {TITLE_BEST_PRACTICES.map((each, index) => {
+          {DESCRIPTION_BEST_PRACTICES.map((each, index) => {
             return (
               <div
                 key={index}
@@ -45,7 +45,7 @@ const BestPracticesContent = () => {
           })}
         </div>
       </div>
-      <div className="text-center sm:mx-[155px] mt-12 sm:mt-16 flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center">
+      {/* <div className="text-center sm:mx-[155px] mt-12 sm:mt-16 flex flex-col-reverse sm:flex-row sm:justify-between sm:items-center">
         <div className="sm:mr-2">
           <img
             className="sm:w-[90%] h-auto mt-6"
@@ -55,13 +55,13 @@ const BestPracticesContent = () => {
 
         <div className="sm:w-[80%] text-left">
           <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
-            {TITLE_SUB_HEADINGS2.question}
+            {DESCRIPTION_SUB_HEADINGS2.question}
           </h2>
           <p className="py-3 text-[18px] text-white">
-            {TITLE_SUB_HEADINGS2.answer}
+            {DESCRIPTION_SUB_HEADINGS2.answer}
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -8,7 +8,7 @@ const Faq = () => {
       <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
         Frequently Asked Questions
       </h2>
-      <div className="py-3 text-white">
+      <div className="py-3 text-white px-3">
         {TITLE_FAQ.map((each, index) => {
           return (
             <div

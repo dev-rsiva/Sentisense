@@ -5,7 +5,7 @@ import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 const UserPreferencesInput = ({ data }) => {
   const [handleContentTypeClick, handleLengthClick, handleToneClick] = data;
   return (
-    <div id="userPreferences">
+    <div className="px-3" id="userPreferences">
       <div className="flex flex-col justify-center items-center mb-8 pt-12">
         <h2 className="py-6 font-extrabold text-[#c7cbd5] text-[28px] sm:text-[24px] text-center underline">
           Refine Titles Based on Your Preferences
@@ -16,8 +16,8 @@ const UserPreferencesInput = ({ data }) => {
         <p className="text-xl font-bold pb-6">
           Choose the Desired Length of Title:
         </p>
-        <div className="text-[#c7cbd5] flex pl-60">
-          <ul>
+        <div className="text-[#c7cbd5] flex pl-12 sm:pl-60">
+          <ul className="flex flex-col sm:flex-row flex-wrap gap-2">
             <li className="pb-2">
               <input
                 className="mr-3 cursor-pointer"
@@ -54,7 +54,7 @@ const UserPreferencesInput = ({ data }) => {
 
       <div className="w-full text-left pt-8">
         <p className="text-xl font-bold pb-6">Choose the Content Type:</p>
-        <div className="text-[#c7cbd5] flex pl-60">
+        <div className="text-[#c7cbd5] flex pl-12 sm:pl-60">
           <ul className="flex flex-wrap gap-2">
             <li className="pb-2 w-[150px]">
               <input
@@ -113,7 +113,7 @@ const UserPreferencesInput = ({ data }) => {
 
       <div className="w-full text-left pt-8">
         <p className="text-xl font-bold pb-6">Choose the Tone/Style:</p>
-        <div className="text-[#c7cbd5] flex pl-60">
+        <div className="text-[#c7cbd5] flex pl-12 sm:pl-60">
           <ul className="flex flex-wrap gap-2">
             <li className="pb-2 w-[150px]">
               <input

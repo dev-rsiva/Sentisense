@@ -163,7 +163,7 @@ const YoutubeDescriptionGenerator = () => {
 
   return (
     <div className="bg-[#0E111D] flex justify-center font-Rubik pb-24 sm:pb-32">
-      <div className="text-white px-5">
+      <div className="text-white px-1">
         <TitleContainer />
         <form
           onSubmit={(e) => e.preventDefault()}
@@ -172,7 +172,7 @@ const YoutubeDescriptionGenerator = () => {
           {/* className="bg-gray-700 bg-opacity-25 w-full p-8 rounded-lg border-2 border-gray-400" */}
           <div>
             <div className="w-full flex justify-center">
-              <div className="w-[350px] sm:w-[500px] text-center sm:bg-white rounded-full sm:flex sm:justify-between sm:items-center p-[6px]">
+              <div className="w-[300px] sm:w-[500px] text-center sm:bg-white rounded-full sm:flex sm:justify-between sm:items-center p-[6px]">
                 <input
                   ref={topicRef}
                   className="outline-none bg-white text-[#0D111B] rounded-full w-full h-full text-sm sm:text-base pl-6 py-5 sm:pl-6 sm:py-3 mb-3 sm:mb-0"
@@ -234,7 +234,7 @@ const YoutubeDescriptionGenerator = () => {
               showRefinedDescriptionsBtn &&
               !seoDescriptionssAreLoading && (
                 <button
-                  className="mx-auto my-20 bg-[#139DFF] w-[500px] px-6 py-6 rounded-full text-lg font-semibold flex justify-center items-center"
+                  className="mx-auto my-20 bg-[#139DFF] sm:w-[500px] px-6 py-6 rounded-full text-lg font-semibold flex justify-center items-center"
                   onClick={() => {
                     setDoRefine(true);
                     // setUserPreferences(false);

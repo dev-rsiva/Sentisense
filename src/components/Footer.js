@@ -31,10 +31,13 @@ const Footer = () => {
           </h2>
           <ul className="flex flex-col">
             <li className="mb-2">Youtube Title Generator</li>
-            <li className="mb-2">Youtube Sentinent Comment Analyser</li>
-            <li className="mb-2">Youtube Tag Generator</li>
             <li className="mb-2">Youtube Description Generator</li>
-            <li className="mb-2">Youtube Hashtag Generator</li>
+            <li className="mb-2">Youtube Tag Generator</li>
+            <li className="mb-2">
+              Youtube Sentinent Comment Analyser(Upcoming)
+            </li>
+            <li className="mb-2">Keyword Extractor(Upcoming)</li>
+            <li className="mb-2">Youtube Hashtag Generator(Upcoming)</li>
           </ul>
         </div>
 

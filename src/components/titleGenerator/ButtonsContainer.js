@@ -19,7 +19,7 @@ const ButtonsContainer = ({ data }) => {
               Generate Titles For:
             </h2>
             <button
-              className="bg-[#139DFF] w-[350px] sm:w-[500px] px-6 py-3 rounded-full text-lg font-semibold flex justify-center items-center"
+              className="bg-[#139DFF] w-[320px] sm:w-[500px] px-6 py-3 rounded-full text-lg font-semibold flex justify-center items-center"
               onClick={() => handleCompetitorAnalysisClick()}
             >
               <p className="mr-2 w-full">
@@ -35,7 +35,7 @@ const ButtonsContainer = ({ data }) => {
             <p className="py-3 font-extrabold text-[18px] sm:text-[24px]">Or</p>
 
             <button
-              className="bg-[#139DFF] w-[350px] sm:w-[500px] px-6 py-3 rounded-full text-lg font-semibold flex justify-center items-center"
+              className="bg-[#139DFF] w-[320px] sm:w-[500px] px-5 py-3 rounded-full text-lg font-semibold flex justify-center items-center"
               onClick={() => handleUserPreferencesClick()}
             >
               <p className="mr-2">

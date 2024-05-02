@@ -17,7 +17,7 @@ import {
 const BestPracticesContent = () => {
   return (
     <div>
-      <div className="text-center sm:mx-[155px] mt-12 sm:mt-16">
+      <div className="text-center sm:mx-[155px] mt-12 sm:mt-16 px-3">
         <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
           {TITLE_SUBHEADINGS.question}
         </h2>
@@ -29,7 +29,7 @@ const BestPracticesContent = () => {
         <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
           {TITLE_BEST_PRACTICES_HEADING}
         </h2>
-        <div className="py-3 text-white flex flex-wrap justify-center items-center">
+        <div className="py-3 text-white flex flex-wrap justify-center items-center px-3">
           {TITLE_BEST_PRACTICES.map((each, index) => {
             return (
               <div
@@ -53,7 +53,7 @@ const BestPracticesContent = () => {
           />
         </div>
 
-        <div className="sm:w-[80%] text-left">
+        <div className="sm:w-[80%] text-left px-3">
           <h2 className="py-3 font-extrabold text-[28px] sm:text-[34px]">
             {TITLE_SUB_HEADINGS2.question}
           </h2>

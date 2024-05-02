@@ -1,8 +1,8 @@
 import React from "react";
 import {
-  TITLE_FIRST_LINE,
-  TITLE_HEADLINE,
-  TITLE_SUB_HEADLINE,
+  DESCRIPTION_FIRST_LINE,
+  DESCRIPTION_HEADLINE,
+  DESCRIPTION_SUB_HEADLINE,
 } from "../../utils/constants";
 const TitleContainer = () => {
   return (
@@ -17,13 +17,13 @@ const TitleContainer = () => {
         className="bg-gradient-to-br from-purple-400 to-blue-500 text-transparent bg-clip-text 
 font-bold text-lg sm:text-xl tracking-[6px] py-4"
       >
-        {TITLE_FIRST_LINE}
+        {DESCRIPTION_FIRST_LINE}
       </h1>
       <h1 className="py-3 sm:leading-[4rem] font-extrabold text-2xl sm:text-[56px]">
-        {TITLE_HEADLINE}
+        {DESCRIPTION_HEADLINE}
       </h1>
-      <h2 className="py-4 text-base sm:text-[22px] text-[#c7cbd5]">
-        {TITLE_SUB_HEADLINE}
+      <h2 className="py-4 text-base sm:text-[22px] text-[#c7cbd5] px-2">
+        {DESCRIPTION_SUB_HEADLINE}
       </h2>
     </div>
   );

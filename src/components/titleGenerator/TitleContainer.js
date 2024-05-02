@@ -15,14 +15,14 @@ const TitleContainer = () => {
     >
       <h1
         className="bg-gradient-to-br from-purple-400 to-blue-500 text-transparent bg-clip-text 
-font-bold text-lg sm:text-xl tracking-[6px] py-4"
+font-bold text-lg sm:text-xl tracking-[6px] py-4 px-2"
       >
         {TITLE_FIRST_LINE}
       </h1>
       <h1 className="py-3 sm:leading-[4rem] font-extrabold text-2xl sm:text-[56px]">
         {TITLE_HEADLINE}
       </h1>
-      <h2 className="py-4 text-base sm:text-[22px] text-[#c7cbd5]">
+      <h2 className="py-4 text-base sm:text-[22px] text-[#c7cbd5] px-2">
         {TITLE_SUB_HEADLINE}
       </h2>
     </div>

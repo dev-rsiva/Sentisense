@@ -1,352 +1,145 @@
 export const sampleVideos = [
   {
     kind: "youtube#searchResult",
-    etag: "p_0dOjlYrCg_pzB6d95-GWLAokQ",
+    etag: "9_fBdEkPYSCsoUw8OYJDsoG84-I",
     id: {
       kind: "youtube#video",
-      videoId: "UpVYM-67ubI",
+      videoId: "2RO3lWhdqs4",
     },
     snippet: {
-      publishedAt: "2024-04-26T19:12:23Z",
-      channelId: "UCXWfmXteFx5KLLBnxV0fq7A",
-      title: "PREMIER LEAGUE TOTS PACKS! 😱 FC 24 Ultimate Team",
+      publishedAt: "2021-12-07T19:06:12Z",
+      channelId: "UCdOH5MjfGnqXVnjT6kuTZ8Q",
+      title: "Top 5 Running Shoes for Older Runners",
       description:
-        "PREMIER LEAGUE TOTS PACKS! FC 24 Ultimate Team If you enjoyed the video remember to subscribe and hit the Let me ...",
+        "Hi, thanks for watching our video about \"Top 5 Running Shoes for Older Runners! In this video we'll walk you through: - running ...",
       thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/UpVYM-67ubI/default.jpg",
+          url: "https://i.ytimg.com/vi/2RO3lWhdqs4/default.jpg",
           width: 120,
           height: 90,
         },
         medium: {
-          url: "https://i.ytimg.com/vi/UpVYM-67ubI/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/2RO3lWhdqs4/mqdefault.jpg",
           width: 320,
           height: 180,
         },
         high: {
-          url: "https://i.ytimg.com/vi/UpVYM-67ubI/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/2RO3lWhdqs4/hqdefault.jpg",
           width: 480,
           height: 360,
         },
       },
-      channelTitle: "AuzioMF",
+      channelTitle: "TheGloRun",
       liveBroadcastContent: "none",
-      publishTime: "2024-04-26T19:12:23Z",
+      publishTime: "2021-12-07T19:06:12Z",
     },
   },
   {
     kind: "youtube#searchResult",
-    etag: "pSLiLOktNaHw4tylGIufJ__kt5s",
+    etag: "BHxONn5l9frd4OXdy1lo9ZSMSrU",
     id: {
       kind: "youtube#video",
-      videoId: "POhVPSZXXWQ",
+      videoId: "civ49C6CeYA",
     },
     snippet: {
-      publishedAt: "2024-04-26T14:31:38Z",
-      channelId: "UC8QylkZmeGTi5Y2VR5bf7VA",
-      title: "Best Ever TOTS XI",
+      publishedAt: "2024-02-07T23:00:33Z",
+      channelId: "UCa_J92gCsQoPPpQsWEQbgoA",
+      title: "9 Best Running Shoes for Older Runners in 2024",
       description:
-        "This team is going to be INSANE! My Instagram https://www.instagram.com/chuffsters/ My other channels: More Football/FIFA ...",
+        "Ready to lace up and rewrite your running story, even as the years fly by? This video is your ultimate guide to finding the perfect ...",
       thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/POhVPSZXXWQ/default.jpg",
+          url: "https://i.ytimg.com/vi/civ49C6CeYA/default.jpg",
           width: 120,
           height: 90,
         },
         medium: {
-          url: "https://i.ytimg.com/vi/POhVPSZXXWQ/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/civ49C6CeYA/mqdefault.jpg",
           width: 320,
           height: 180,
         },
         high: {
-          url: "https://i.ytimg.com/vi/POhVPSZXXWQ/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/civ49C6CeYA/hqdefault.jpg",
           width: 480,
           height: 360,
         },
       },
-      channelTitle: "More Chuff",
+      channelTitle: "Best Fashion Nova",
       liveBroadcastContent: "none",
-      publishTime: "2024-04-26T14:31:38Z",
+      publishTime: "2024-02-07T23:00:33Z",
     },
   },
   {
     kind: "youtube#searchResult",
-    etag: "xv6X3TRQSpu-3P6_ssF8rxNxFE8",
+    etag: "Es9ajlmLxqtpRoYrCVzSI3C2vEU",
     id: {
       kind: "youtube#video",
-      videoId: "M56WWR0oWBo",
+      videoId: "cPxhzWzWq6k",
     },
     snippet: {
-      publishedAt: "2024-04-25T14:30:06Z",
-      channelId: "UC7ABaoK3AFxuy_i4f6xV1tA",
-      title: "Fastest Player From Every Club",
+      publishedAt: "2023-03-07T11:21:57Z",
+      channelId: "UCiuXL-nImFzVnes2VlSYdUA",
+      title: "5 Best Running Shoes 2024 That Will Survive Years Of Running",
       description:
-        "Excite the ordinary with air up. Code CHUFF for 10% off sitewide: https://airup.link/Chuffsters2024425 #ad I'm building a team ...",
+        "runningshoes #bestrunningshoes #shoes ➜ Links to the best Running Shoes 2024 we listed in this video: ✓➜ 5. ASICS GEL ...",
       thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/M56WWR0oWBo/default.jpg",
+          url: "https://i.ytimg.com/vi/cPxhzWzWq6k/default.jpg",
           width: 120,
           height: 90,
         },
         medium: {
-          url: "https://i.ytimg.com/vi/M56WWR0oWBo/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/cPxhzWzWq6k/mqdefault.jpg",
           width: 320,
           height: 180,
         },
         high: {
-          url: "https://i.ytimg.com/vi/M56WWR0oWBo/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/cPxhzWzWq6k/hqdefault.jpg",
           width: 480,
           height: 360,
         },
       },
-      channelTitle: "Chuffsters",
+      channelTitle: "HTECK",
       liveBroadcastContent: "none",
-      publishTime: "2024-04-25T14:30:06Z",
+      publishTime: "2023-03-07T11:21:57Z",
     },
   },
   {
     kind: "youtube#searchResult",
-    etag: "_lKJbk_xvwg3nAtZDJjdd3OZTE0",
+    etag: "en4N63_vB2hicuEOgbKtKFHLVRo",
     id: {
       kind: "youtube#video",
-      videoId: "OFbyNU6UQQs",
+      videoId: "3v7zw2YaeSw",
     },
     snippet: {
-      publishedAt: "2022-08-25T15:46:33Z",
-      channelId: "UCpcTrCXblq78GZrTUTLWeBw",
-      title: "FULL MATCH: Portugal v Spain | 2018 FIFA World Cup",
+      publishedAt: "2020-10-30T18:00:03Z",
+      channelId: "UCAPXY8fsGZ81aLS6EJaC8hQ",
+      title: "The 7 Best Running Shoes for Older Runners",
       description:
-        "Relive one of the most thrilling FIFA World Cup matches as Cristiano Ronaldo and Portugal take on Spain in Group Stage action ...",
+        "BEST RUNNING SHOES FOR OLDER RUNNERS *************************** 1. BROOKS GLYCERIN 18 https://amzn.to/3kkWk9T ...",
       thumbnails: {
         default: {
-          url: "https://i.ytimg.com/vi/OFbyNU6UQQs/default.jpg",
+          url: "https://i.ytimg.com/vi/3v7zw2YaeSw/default.jpg",
           width: 120,
           height: 90,
         },
         medium: {
-          url: "https://i.ytimg.com/vi/OFbyNU6UQQs/mqdefault.jpg",
+          url: "https://i.ytimg.com/vi/3v7zw2YaeSw/mqdefault.jpg",
           width: 320,
           height: 180,
         },
         high: {
-          url: "https://i.ytimg.com/vi/OFbyNU6UQQs/hqdefault.jpg",
+          url: "https://i.ytimg.com/vi/3v7zw2YaeSw/hqdefault.jpg",
           width: 480,
           height: 360,
         },
       },
-      channelTitle: "FIFA",
+      channelTitle: "Best Seller Reviews",
       liveBroadcastContent: "none",
-      publishTime: "2022-08-25T15:46:33Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "iY26TQIihhMXDgzQyT4QH7uLCPQ",
-    id: {
-      kind: "youtube#video",
-      videoId: "m9BWloupC7U",
-    },
-    snippet: {
-      publishedAt: "2024-04-27T00:54:30Z",
-      channelId: "UC7Wyuc7HQXbC70GGqVLl9mQ",
-      title: "UNLIMITED Premier League TOTS Champs Rewards!",
-      description:
-        "twitter: https://www.twitter.com/nickrtfm twitch: https://www.twitch.tv/runthefutmarket instagram: https://www.instagram.com/nickrtfm ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/m9BWloupC7U/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/m9BWloupC7U/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/m9BWloupC7U/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "NickRTFM",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-27T00:54:30Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "RZxiQ9XHtQCms8nCPr9_mKaMX74",
-    id: {
-      kind: "youtube#video",
-      videoId: "FWUI2aZlmVg",
-    },
-    snippet: {
-      publishedAt: "2024-04-24T14:00:22Z",
-      channelId: "UC6uPuQ0LvZURsDSoVDbc0Hg",
-      title: "I Put Prime Neymar In The Worst Team In FIFA",
-      description:
-        "I put Prime Neymar in the worst team to find out if he could win his first ever Ballon D'or Follow me:   Instagram: ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/FWUI2aZlmVg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/FWUI2aZlmVg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/FWUI2aZlmVg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "SIM2",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-24T14:00:22Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "aEaobVBxT9Ov9kNY0K5ftbQBt48",
-    id: {
-      kind: "youtube#video",
-      videoId: "zhEWqfP6V_w",
-    },
-    snippet: {
-      publishedAt: "2022-12-19T18:45:01Z",
-      channelId: "UCpcTrCXblq78GZrTUTLWeBw",
-      title:
-        "THE GREATEST FINAL EVER?! | Argentina v France | FIFA World Cup Qatar 2022 Highlights",
-      description:
-        "Watch highlights of Argentina v France's Final at the FIFA World Cup Qatar 2022. Get all the highlights from Qatar 2022 on FIFA+ ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/zhEWqfP6V_w/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/zhEWqfP6V_w/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/zhEWqfP6V_w/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "FIFA",
-      liveBroadcastContent: "none",
-      publishTime: "2022-12-19T18:45:01Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "aotmzQltpQE0dWh9VGqw8keZmPQ",
-    id: {
-      kind: "youtube#video",
-      videoId: "-Vv-vakUnn0",
-    },
-    snippet: {
-      publishedAt: "2024-01-08T19:00:00Z",
-      channelId: "UCa48K4ToAj9fsJ3lFRoVcLg",
-      title: "The Best Football Team on Planet 🌍⚽ #football #fifa",
-      description:
-        "Step into the glory of The Best FIFA Football Awards 2017 as we bring you an unforgettable introduction to the best football team ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/-Vv-vakUnn0/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/-Vv-vakUnn0/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/-Vv-vakUnn0/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Motivate Corner",
-      liveBroadcastContent: "none",
-      publishTime: "2024-01-08T19:00:00Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "L13r_T3Er9A8EA0M2vT6sMH1GDE",
-    id: {
-      kind: "youtube#video",
-      videoId: "qxxq9tejZKA",
-    },
-    snippet: {
-      publishedAt: "2022-10-12T21:05:32Z",
-      channelId: "UC6F8qNdFapfoprCOQmhD2KA",
-      title: "World Cup Group of Death revealed by FIFA 😳",
-      description: "",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/qxxq9tejZKA/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/qxxq9tejZKA/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/qxxq9tejZKA/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "Pêche Football",
-      liveBroadcastContent: "none",
-      publishTime: "2022-10-12T21:05:32Z",
-    },
-  },
-  {
-    kind: "youtube#searchResult",
-    etag: "zrZ8HKBeQauFrXSH2Aq1EDVr2p4",
-    id: {
-      kind: "youtube#video",
-      videoId: "R1b6xfs0Ldg",
-    },
-    snippet: {
-      publishedAt: "2024-04-24T10:33:23Z",
-      channelId: "UCurtk6gwUZPnccBndhFPNMQ",
-      title: "$1000 FC Mobile Packs on a New FC MOBILE Account!",
-      description:
-        "For Business Inquiries Contact: business@renderz.app Support me through: https://renderz.app/creators/@RkReddy Follow me ...",
-      thumbnails: {
-        default: {
-          url: "https://i.ytimg.com/vi/R1b6xfs0Ldg/default.jpg",
-          width: 120,
-          height: 90,
-        },
-        medium: {
-          url: "https://i.ytimg.com/vi/R1b6xfs0Ldg/mqdefault.jpg",
-          width: 320,
-          height: 180,
-        },
-        high: {
-          url: "https://i.ytimg.com/vi/R1b6xfs0Ldg/hqdefault.jpg",
-          width: 480,
-          height: 360,
-        },
-      },
-      channelTitle: "RkReddy",
-      liveBroadcastContent: "none",
-      publishTime: "2024-04-24T10:33:23Z",
+      publishTime: "2020-10-30T18:00:03Z",
     },
   },
 ];
+
+export const sampleDescription =
+  "Looking for the best running shoes for older runners? Look no further! In this video, we'll guide you through the top picks for running shoes specifically designed for older men. Whether you're looking for comfort, support, or durability, we've got you covered. Learn which running shoes are best suited for older runners to help you stay active and injury-free. From Brooks Glycerin to ASICS GEL, we'll review the top brands and models to keep you running strong. Don't let age hold you back – lace up and hit the pavement with confidence! If you're ready to take your running game to the next level, don't forget to like, subscribe, and leave a comment with your favorite running shoe pick. Stay tuned for more fitness tips and recommendations from our channel!";

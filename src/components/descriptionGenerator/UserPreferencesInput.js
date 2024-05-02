@@ -24,51 +24,12 @@ const UserPreferencesInput = ({ data }) => {
         </h2>
         <FontAwesomeIcon icon={faArrowDown} className="text-2xl" />
       </div>
-      {/* <div className="w-full text-left pt-8">
-        <p className="text-xl font-bold pb-6">
-          Choose the Desired Length of Title:
-        </p>
-        <div className="text-[#c7cbd5] flex pl-60">
-          <ul>
-            <li className="pb-2">
-              <input
-                className="mr-3 cursor-pointer"
-                type="radio"
-                name="titleLength"
-                value="short"
-                onChange={(e) => handleLengthClick(e)}
-              />
-              <label htmlFor="long">Short - (less than 50 characters)</label>
-            </li>
-            <li className="pb-2">
-              <input
-                className="mr-3 cursor-pointer"
-                type="radio"
-                name="titleLength"
-                value="medium"
-                onChange={(e) => handleLengthClick(e)}
-              />
-              <label htmlFor="long">Medium - (50-70 characters)</label>
-            </li>
-            <li className="pb-2">
-              <input
-                className="mr-3 cursor-pointer"
-                type="radio"
-                name="titleLength"
-                value="long"
-                onChange={(e) => handleLengthClick(e)}
-              />
-              <label htmlFor="long">Long - (over 70 characters)</label>
-            </li>
-          </ul>
-        </div>
-      </div> */}
 
-      <div className="w-full text-left pt-8">
+      <div className="text-left pt-8">
         <p className="text-xl font-bold pb-6">Focus Areas: (choose only two)</p>
-        <div className="text-[#c7cbd5] flex pl-60">
-          <ul className="flex flex-wrap gap-2">
-            <li className="pb-2 w-[320px]">
+        <div className="text-[#c7cbd5] flex pl-12 sm:pl-60">
+          <ul className="flex flex-col sm:flex-row flex-wrap gap-2">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -79,7 +40,7 @@ const UserPreferencesInput = ({ data }) => {
               />
               <label htmlFor="Time-Saving Tips">Time-Saving Tips</label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -92,7 +53,7 @@ const UserPreferencesInput = ({ data }) => {
                 Budget-Friendly Options
               </label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -106,7 +67,7 @@ const UserPreferencesInput = ({ data }) => {
               </label>
             </li>
 
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -119,7 +80,7 @@ const UserPreferencesInput = ({ data }) => {
                 Pro Tips and Techniques
               </label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -130,7 +91,7 @@ const UserPreferencesInput = ({ data }) => {
               />
               <label htmlFor="In-Depth Explanation">In-Depth Explanation</label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -142,7 +103,7 @@ const UserPreferencesInput = ({ data }) => {
               <label htmlFor="How-To Videos">How-To Videos</label>
             </li>
 
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -153,7 +114,7 @@ const UserPreferencesInput = ({ data }) => {
               />
               <label htmlFor="Review Videos">Review Videos</label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -164,7 +125,7 @@ const UserPreferencesInput = ({ data }) => {
               />
               <label htmlFor="Listicles">Listicles</label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -177,7 +138,7 @@ const UserPreferencesInput = ({ data }) => {
                 Beginner-Friendly Guide
               </label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -194,7 +155,7 @@ const UserPreferencesInput = ({ data }) => {
                 Tips for Experienced Users
               </label>
             </li>
-            <li className="pb-2 w-[320px]">
+            <li className="pb-2 sm:w-[320px]">
               <input
                 className="mr-3 cursor-pointer"
                 type="checkbox"
@@ -214,110 +175,18 @@ const UserPreferencesInput = ({ data }) => {
           </ul>
         </div>
       </div>
-
-      {/* <div className="w-full text-left pt-8">
-        <p className="text-xl font-bold pb-6">Choose the Tone/Style:</p>
-        <div className="text-[#c7cbd5] flex pl-60">
-          <ul className="flex flex-wrap gap-2">
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style1"
-                value="Serious"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Serious">Serious</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style2"
-                value="Humorous"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Humorous">Humorous</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style3"
-                value="Informative"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Informative">Informative</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style4"
-                value="Intriguing"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Intriguing">Intriguing</label>
-            </li>
-          </ul>
-        </div>
-      </div> */}
-      <div className="w-full text-left pt-8">
+      <div className="text-left pt-8">
         <p className="text-xl font-bold pb-6">
           Additional information: (any specific focus area)
         </p>
-        <div className="text-[#c7cbd5] flex pl-60">
+        <div className="text-[#c7cbd5] flex pl-12 sm:pl-60">
           <input
             ref={additionalUserInfo}
-            className=" min-w-[450px] outline-none px-4 py-2 text-black rounded"
+            className="sm:min-w-[450px] outline-none px-4 py-2 text-black rounded"
             type="textarea"
             name="additionalUserInfo"
           />
         </div>
-        {/* <div className="text-[#c7cbd5] flex pl-60">
-          <ul className="flex flex-wrap gap-2">
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style1"
-                value="Serious"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Serious">Serious</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style2"
-                value="Humorous"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Humorous">Humorous</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style3"
-                value="Informative"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Informative">Informative</label>
-            </li>
-            <li className="pb-2 w-[150px]">
-              <input
-                className="mr-3 cursor-pointer"
-                type="checkbox"
-                name="Tone/style4"
-                value="Intriguing"
-                onChange={(e) => handleToneClick(e)}
-              />
-              <label htmlFor="Intriguing">Intriguing</label>
-            </li>
-          </ul>
-        </div> */}
       </div>
     </div>
   );

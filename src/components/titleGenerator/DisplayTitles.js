@@ -4,7 +4,7 @@ import { faCopy } from "@fortawesome/free-regular-svg-icons";
 
 const DisplayTitles = ({ titles, titleIndex, handleCopyClick }) => {
   return (
-    <div>
+    <div className="px-3">
       {titles?.map((titleObj, index) => {
         return (
           <div

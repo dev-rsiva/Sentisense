@@ -32,8 +32,6 @@ import useTitleGeneratorData from "../../utils/useTitleGeneratorData";
 const YoutubeTitleGenerator = () => {
   console.log("rendering start");
 
- 
-
   const [showRefinedTitles, setShowRefinedTitles] = useState(false);
   const [showRefinedTitlesBtn, setShowRefinedTitlesBtn] = useState(false);
 
@@ -153,7 +151,7 @@ const YoutubeTitleGenerator = () => {
 
   return (
     <div className="bg-[#0E111D] flex justify-center font-Rubik pb-24 sm:pb-32">
-      <div className="text-white px-5">
+      <div className="text-white px-1">
         <TitleContainer />
         <form
           onSubmit={(e) => e.preventDefault()}
@@ -222,7 +220,7 @@ const YoutubeTitleGenerator = () => {
               showRefinedTitlesBtn &&
               !seoTitlesAreLoading && (
                 <button
-                  className="mx-auto my-20 bg-[#139DFF] w-[500px] px-6 py-6 rounded-full text-lg font-semibold flex justify-center items-center"
+                  className="mx-auto my-20 bg-[#139DFF] sm:w-[500px] px-6 py-6 rounded-full text-lg font-semibold flex justify-center items-center"
                   onClick={() => {
                     setDoRefine(true);
                     // setUserPreferences(false);

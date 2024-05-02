@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { TITLE_FAQ } from "../../utils/constants";
+import { DESCRIPTION_FAQ } from "../../utils/constants";
 
 const Faq = () => {
   const [showIndex, setShowIndex] = useState(null);
@@ -9,7 +9,7 @@ const Faq = () => {
         Frequently Asked Questions
       </h2>
       <div className="py-3 text-white">
-        {TITLE_FAQ.map((each, index) => {
+        {DESCRIPTION_FAQ.map((each, index) => {
           return (
             <div
               key={index}
